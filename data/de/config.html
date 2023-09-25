@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Wetterstation Einstellungen</title>
+</head>
+<body>
+    <h1>Einstellungen</h1>
+    <h2>Allgemein</h2>
+    <form id=lang>
+        <label form="lang">Sprache:</label>
+        <select name="lang">
+            <option value="de">Deutsch</option>
+            <option value="en">English</option>
+        </select>
+        <button name="get" value="1">OK</button>
+    </form>
+    <form id="device-name">
+        <label form="device-name">Gerätename:</label>
+        <input type="text" name="device-name" id="device-name">
+        <button name="get" value="1">OK</button>
+    </form>
+    <h2>WLAN</h2>
+    <form id="WiFi">
+        <label form="WiFi">Netzwerkname:</label>
+        <input type="text" id="ssid" name="ssid">
+        <label form="WiFi">Passwort:</label>
+        <input type="text" id="password" name="password">
+        <button name="get" value="1">Bestätigen</button>
+    </form>
+    <p><a href="index.html">Startseite</a></p>
+</body>
+</html>

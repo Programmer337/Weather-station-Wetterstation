@@ -1,0 +1,26 @@
+body{
+	font-family: Arial;
+	text-align: center;
+}
+
+h1{
+	font-family: georgian;
+}
+
+.measurement{
+	display: inline-block;
+	min-width: 15em;
+	max-width: 30em;
+}
+
+#temperature{
+	background-color: red;
+}
+
+#humidity{
+	background-color: lightblue;
+}
+
+#pressure{
+	background-color: lightgreen;
+}

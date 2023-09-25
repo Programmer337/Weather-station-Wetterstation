@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../style.css">
+		<title>Wetterstation</title>
+	</head>
+	<body>
+		<h1>Wetterstation drinnen</h1>
+		<span id="temperature" class="measurement">
+			<h2>Temperatur</h2>
+			<p>%TEMP% °C</p>
+		</span>
+		<span class="measurement" id="humidity">
+			<h2>Luftfeuchte</h2>
+			<p>%HUM% &#37;</p>
+		</span>
+		<span class="measurement" id="pressure">
+			<h2>Luftdruck</h2>
+			<p>%PRESSURE% hPa</p>
+		</span>
+		<form id="time">
+			<label form="time">Daten von: </label>
+			<input type="date" name="date" id="date">
+			<label for="hour">um</label>
+			<input type="number" name="hour" id="hour" placeholder="z.B.:12">
+			<label for="minute">:</label>
+			<select name="minute" id="minute">
+				<option value="00">00</option>
+				<option value="20">20</option>
+				<option value="40">40</option>
+			</select>
+			<button name="get" value="1">Daten holen</button>
+		</form>
+		<p><a href="config.html">Einstellungen</a></p>
+	</body>
+</html>
